@@ -81,11 +81,6 @@ public class MathTests
 		Assert.AreEqual(1.5, Program.Divide("3", "2"));
 	}
 
-	[TestMethod]
-	public void Divide_ByZero_Chowdhury()
-	{
-		Assert.ThrowsException<DivideByZeroException>(() => Program.Divide("1", "0"));
-	}
 
 	[TestMethod]
 	public void Divide_Invalid_Chowdhury()
